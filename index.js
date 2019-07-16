@@ -269,8 +269,7 @@ class RNParallax extends Component {
           }
         ]}
       >
-        {backgroundImage && this.renderBackgroundImage()}
-        {!backgroundImage && this.renderPlainBackground()}
+        {this.renderBackgroundImage()}
       </Animated.View>
     );
   }
