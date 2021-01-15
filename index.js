@@ -345,9 +345,9 @@ class RNParallax extends Component {
   }
 
   render() {
-    const { navbarColor, statusBarColor } = this.props;
+    const { navbarColor, statusBarColor, renderStyle } = this.props;
     return (
-      <View style={styles.container}>
+      <View style={[styles.container,renderStyle]}>
         <StatusBar backgroundColor={statusBarColor || navbarColor} />
         {this.renderScrollView()}
         {this.renderNavbarBackground()}
