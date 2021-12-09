@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     backgroundColor: DEFAULT_NAVBAR_COLOR,
-    overflow: "hidden"
+    overflow: "hidden",
+    zIndex: 11111111111111
   },
   backgroundImage: {
     position: "absolute",
